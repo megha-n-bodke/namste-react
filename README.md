@@ -11,3 +11,5 @@
 - always putting ^ is safe, if upgrade major version so many things in app can break.
 - npm install -D parcel
 - -D represents install as dev dependancy
+- package.lock.json: keeps exact version of each dependancy.
+- integrity in lock files is us
