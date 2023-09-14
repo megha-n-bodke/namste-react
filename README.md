@@ -9,3 +9,5 @@
 - ^ in package.json upgrades minor version change in pkg.
 - ~ will install major version
 - always putting ^ is safe, if upgrade major version so many things in app can break.
+- npm install -D parcel
+- -D represents install as dev dependancy

@@ -1,0 +1,25 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "React Course",
+  "main": "App.js",
+  "scripts": {
+    "test": "Jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megha-n-bodke/namste-react.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Megha Bodke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megha-n-bodke/namste-react/issues"
+  },
+  "homepage": "https://github.com/megha-n-bodke/namste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
