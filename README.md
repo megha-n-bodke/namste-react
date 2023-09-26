@@ -31,5 +31,13 @@ Parcel
 - bundling
 - minification
 - Hot Module Replacement
+
 - Poduction build takes more time than dev build due to more optimisation.
 - Production build command : npx parcel build index.html (u may get error for main:App.js in package.json )
+- we should put /dist and parcel-cache folde rin .gitignore , it can be generated on server.
+- Browserslist is npm package , by which we can make our work on different version of different browsers.
+- with this we hv created app like create-react-app without using it.
+
+26 sep 2023
+React.createElement => Js Object => HtmlElement(by render method).
+JSX => React.createElement(Babel transpiles code to understand javascript engine) => Js. Object => HtmlElement
