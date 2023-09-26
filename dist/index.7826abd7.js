@@ -2947,14 +2947,18 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
-// const heading = React.createElement(
-//   "h1",
-//   {
-//     id: "Heading",
-//   },
-//   "React Heading"
-// );
-// //console.log(heading);
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "Heading"
+}, "React Heading");
+console.log(heading);
+const element = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+    children: "Jsx heading"
+}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 12,
+    columnNumber: 17
+}, undefined);
+console.log(element);
 // const parent = React.createElement("div", { id: "parent" }, [
 //   React.createElement("h1", { id: "heading" }, "Child Heading"),
 //   React.createElement("h2", { id: "Sibling" }, "Sibling heading"),
@@ -2964,13 +2968,13 @@ const Heading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: "JSX Heading"
     }, void 0, false, {
         fileName: "App.js",
-        lineNumber: 19,
+        lineNumber: 21,
         columnNumber: 23
     }, undefined);
 _c = Heading;
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 20,
+    lineNumber: 22,
     columnNumber: 13
 }, undefined));
 var _c;

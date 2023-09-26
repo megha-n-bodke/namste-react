@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// const heading = React.createElement(
-//   "h1",
-//   {
-//     id: "Heading",
-//   },
-//   "React Heading"
-// );
+const heading = React.createElement(
+  "h1",
+  {
+    id: "Heading",
+  },
+  "React Heading"
+);
 
-// //console.log(heading);
+console.log(heading);
+const element = <h1>Jsx heading</h1>;
+console.log(element);
 
 // const parent = React.createElement("div", { id: "parent" }, [
 //   React.createElement("h1", { id: "heading" }, "Child Heading"),
