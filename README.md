@@ -41,3 +41,4 @@ Parcel
 26 sep 2023
 React.createElement => Js Object => HtmlElement(by render method).
 JSX => React.createElement(Babel transpiles code to understand javascript engine) => Js. Object => HtmlElement
+use camelCase for jsx attributes.
