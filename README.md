@@ -42,3 +42,4 @@ Parcel
 React.createElement => Js Object => HtmlElement(by render method).
 JSX => React.createElement(Babel transpiles code to understand javascript engine) => Js. Object => HtmlElement
 use camelCase for jsx attributes.
+if want to write multiple line jsx use ().
