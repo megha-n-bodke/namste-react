@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  width: 120px;
+}
+
+.menu > ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu > ul > li {
+}

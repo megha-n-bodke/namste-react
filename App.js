@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./Index.css";
 //const heading = React.createElement(
 /*   "h1",
   {
@@ -28,11 +29,12 @@ console.log(element);
 
 const Heading = () => {
   return (
-    <div>
+    <div className="header-container">
       <div className="logo">
         <img
           src="https://www.clipartmax.com/png/small/155-1558209_take-away-food-logos.png"
           alt="Take Away Food Logos @clipartmax.com"
+          className="logo-img"
         ></img>
       </div>
       <div className="menu">

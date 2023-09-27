@@ -2947,6 +2947,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _indexCss = require("./Index.css");
 //const heading = React.createElement(
 /*   "h1",
   {
@@ -2973,20 +2974,22 @@ console.log(element);
 // ]);
 const Heading = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header-container",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "logo",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: "https://www.clipartmax.com/png/small/155-1558209_take-away-food-logos.png",
-                    alt: "Take Away Food Logos @clipartmax.com"
+                    alt: "Take Away Food Logos @clipartmax.com",
+                    className: "logo-img"
                 }, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 33,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 32,
+                lineNumber: 33,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2997,45 +3000,45 @@ const Heading = ()=>{
                             children: "Home "
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 40,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About Us"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 41,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact us"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 42,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 43,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 39,
+                    lineNumber: 41,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 5
     }, undefined);
 };
@@ -3043,7 +3046,7 @@ _c = Heading;
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 52,
+    lineNumber: 54,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -3054,7 +3057,7 @@ $RefreshReg$(_c, "Heading");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"21dqq","react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj"}],"21dqq":[function(require,module,exports) {
+},{"react":"21dqq","react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react/jsx-dev-runtime":"iTorj","./Index.css":"iGs24"}],"21dqq":[function(require,module,exports) {
 "use strict";
 module.exports = require("a569817e6ea559f6");
 
@@ -27386,6 +27389,6 @@ module.exports = require("ee51401569654d91");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"58362d9d82be395f":"21dqq"}]},["cIuSe","1xC6H","2Ew96"], "2Ew96", "parcelRequireb877")
+},{"58362d9d82be395f":"21dqq"}],"iGs24":[function() {},{}]},["cIuSe","1xC6H","2Ew96"], "2Ew96", "parcelRequireb877")
 
 //# sourceMappingURL=index.7826abd7.js.map
