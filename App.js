@@ -9,7 +9,16 @@ const heading = React.createElement(
 );
 
 console.log(heading);
-const element = <h1>Jsx heading</h1>;
+
+const Heading = () => <h1>JSX Heading {10 + 20}</h1>;
+
+const element = (
+  <h1>
+    Element......
+    {Heading()}
+    <Heading />
+  </h1>
+);
 console.log(element);
 
 // const parent = React.createElement("div", { id: "parent" }, [
@@ -18,5 +27,4 @@ console.log(element);
 // ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const Heading = () => <h1>JSX Heading</h1>;
-root.render(<Heading />);
+root.render(element);

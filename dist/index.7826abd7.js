@@ -2951,12 +2951,31 @@ const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "Heading"
 }, "React Heading");
 console.log(heading);
+const Heading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: [
+            "JSX Heading ",
+            30
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 13,
+        columnNumber: 23
+    }, undefined);
+_c = Heading;
 const element = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    children: "Jsx heading"
-}, void 0, false, {
+    children: [
+        "Element......",
+        Heading(),
+        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
+            fileName: "App.js",
+            lineNumber: 19,
+            columnNumber: 5
+        }, undefined)
+    ]
+}, void 0, true, {
     fileName: "App.js",
-    lineNumber: 12,
-    columnNumber: 17
+    lineNumber: 16,
+    columnNumber: 3
 }, undefined);
 console.log(element);
 // const parent = React.createElement("div", { id: "parent" }, [
@@ -2964,19 +2983,7 @@ console.log(element);
 //   React.createElement("h2", { id: "Sibling" }, "Sibling heading"),
 // ]);
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
-const Heading = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "JSX Heading"
-    }, void 0, false, {
-        fileName: "App.js",
-        lineNumber: 21,
-        columnNumber: 23
-    }, undefined);
-_c = Heading;
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 22,
-    columnNumber: 13
-}, undefined));
+root.render(element);
 var _c;
 $RefreshReg$(_c, "Heading");
 
