@@ -27,6 +27,15 @@ console.log(element);
 //   React.createElement("h2", { id: "Sibling" }, "Sibling heading"),
 // ]);
 
+// Planning
+/* - Header
+  Logo 2)menubar
+- Body
+  - Resaurant Card Container
+  - Resaurant card
+
+-Footer
+ */
 const Heading = () => {
   return (
     <div className="header-container">
@@ -49,6 +58,11 @@ const Heading = () => {
   );
 };
 
+const Page = () => {
+  return <Heading />;
+};
+
+// Body component
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Heading />);
+root.render(<Page />);

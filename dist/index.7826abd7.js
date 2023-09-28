@@ -2972,7 +2972,15 @@ console.log(element);
 //   React.createElement("h1", { id: "heading" }, "Child Heading"),
 //   React.createElement("h2", { id: "Sibling" }, "Sibling heading"),
 // ]);
-const Heading = ()=>{
+// Planning
+/* - Header
+  Logo 2)menubar
+- Body
+  - Resaurant Card Container
+  - Resaurant card
+
+-Footer
+ */ const Heading = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "header-container",
         children: [
@@ -2984,12 +2992,12 @@ const Heading = ()=>{
                     className: "logo-img"
                 }, void 0, false, {
                     fileName: "App.js",
-                    lineNumber: 34,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 33,
+                lineNumber: 42,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3000,57 +3008,67 @@ const Heading = ()=>{
                             children: "Home "
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 42,
+                            lineNumber: 51,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "About Us"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 43,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Contact us"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 44,
+                            lineNumber: 53,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                             children: "Cart"
                         }, void 0, false, {
                             fileName: "App.js",
-                            lineNumber: 45,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "App.js",
-                    lineNumber: 41,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "App.js",
-                lineNumber: 40,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "App.js",
-        lineNumber: 32,
+        lineNumber: 41,
         columnNumber: 5
     }, undefined);
 };
 _c = Heading;
+const Page = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 62,
+        columnNumber: 10
+    }, undefined);
+};
+_c1 = Page;
+// Body component
 const root = (0, _reactDomDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Heading, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Page, {}, void 0, false, {
     fileName: "App.js",
-    lineNumber: 54,
+    lineNumber: 68,
     columnNumber: 13
 }, undefined));
-var _c;
+var _c, _c1;
 $RefreshReg$(_c, "Heading");
+$RefreshReg$(_c1, "Page");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
