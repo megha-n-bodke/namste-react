@@ -48,3 +48,10 @@ use{} to put any js code inside JSX.
 27 sep 2023
 
 - react prevent cross scripting attacts
+
+28 sep 2023
+
+- Props
+- as component is normal javascript function, proprs are arguments passed to function.
+- props passed to component are bind into object called "props".
+- when u want to pass some dynamic data to component u should use "props".
