@@ -37,6 +37,40 @@ console.log(element);
 -Footer
  */
 const Heading = () => {
+  return (
+    <div className="header-container">
+      <div className="logo">
+        <img
+          src="https://www.clipartmax.com/png/small/155-1558209_take-away-food-logos.png"
+          alt="Take Away Food Logos @clipartmax.com"
+          className="logo-img"
+        ></img>
+      </div>
+      <div className="menu">
+        <ul>
+          <li>Home </li>
+          <li>About Us</li>
+          <li>Contact us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
+    </div>
+  );
+};
+
+const RestaurantCard = ({ resData }) => {
+  console.log(resData);
+  return (
+    <div className="cardContainer">
+      <img src="" alt="resto image"></img>
+      <h2>Name{resData[0].info.name}</h2>
+      <h3>Cusine</h3>
+    </div>
+  );
+};
+
+// Body
+const Body = () => {
   const restaurants = [
     {
       info: {
@@ -1088,33 +1122,21 @@ const Heading = () => {
       },
     },
   ];
-
   return (
-    <div className="header-container">
-      <div className="logo">
-        <img
-          src="https://www.clipartmax.com/png/small/155-1558209_take-away-food-logos.png"
-          alt="Take Away Food Logos @clipartmax.com"
-          className="logo-img"
-        ></img>
-      </div>
-      <div className="menu">
-        <ul>
-          <li>Home </li>
-          <li>About Us</li>
-          <li>Contact us</li>
-          <li>Cart</li>
-        </ul>
-      </div>
+    <div>
+      <RestaurantCard resData={restaurants} />
     </div>
   );
 };
-
 const Page = () => {
-  return <Heading />;
+  return (
+    <>
+      <Heading />
+      <Body></Body>
+    </>
+  );
 };
 
-// Body component
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<Page />);
