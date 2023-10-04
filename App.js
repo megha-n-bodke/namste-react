@@ -1128,11 +1128,13 @@ const Body = () => {
     </div>
   );
 };
+
+//Page
 const Page = () => {
   return (
     <>
       <Heading />
-      <Body></Body>
+      <Body />
     </>
   );
 };
