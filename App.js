@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./Index.css";
 //const heading = React.createElement(
 /*   "h1",
@@ -63,7 +63,7 @@ const RestaurantCard = ({ resData }) => {
   return (
     <div className="cardContainer">
       <img src="" alt="resto image"></img>
-      <h2>Name{resData[0].info.name}</h2>
+      <h2>{resData.info.name}</h2>
       <h3>Cusine</h3>
     </div>
   );
@@ -1124,7 +1124,10 @@ const Body = () => {
   ];
   return (
     <div>
-      <RestaurantCard resData={restaurants} />
+      {/* <RestaurantCard resData={restaurants[3]} /> */}
+      {restaurants.map((restaurant) => (
+        <RestaurantCard resData={restaurant} />
+      ))}
     </div>
   );
 };
